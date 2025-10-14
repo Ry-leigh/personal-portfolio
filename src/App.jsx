@@ -33,7 +33,7 @@ function App() {
           <div className="inner">
             <div className="col-12">
               <span className="image right">
-                <img src="images/pic01.jpg" alt="" />
+                <img src="images/em.jpg" alt="" />
               </span>
             </div>
             <p style={{ marginBottom: 0 }}>Hello, I'm</p>
@@ -215,8 +215,8 @@ function App() {
             </p>
           </div>
           <section>
-            <a className="image">
-              <img src="images/pic01.jpg" alt="" data-position="center center" />
+            <a className="image fit">
+              <img src="images/secrequery.png" alt="" data-position="center center" />
             </a>
             <div className="content">
               <div className="inner">
@@ -243,8 +243,8 @@ function App() {
             </div>
           </section>
           <section>
-            <a className="image">
-              <img src="images/pic01.jpg" alt="" data-position="top center" />
+            <a className="image fit">
+              <img src="images/digibook.jpg" alt="" data-position="top center" />
             </a>
             <div className="content">
               <div className="inner">
@@ -271,8 +271,8 @@ function App() {
             </div>
           </section>
           <section>
-            <a className="image">
-              <img src="images/pic01.jpg" alt="" data-position="25% 25%" />
+            <a className="image fit">
+              <img src="images/memoryte.png" alt="" data-position="25% 25%" />
             </a>
             <div className="content">
               <div className="inner">
