@@ -206,7 +206,7 @@ function App() {
         </section>
 
         {/* My Works */}
-        <section id="three" className="wrapper style2 spotlights">
+        <section id="works" className="wrapper style2 spotlights">
           <div className="inner">
             <h2>My Recent Works</h2>
             <p>
@@ -301,7 +301,7 @@ function App() {
         </section>
 
         {/* Get in Touch */}
-        <section id="four" className="wrapper style1 fade-up">
+        <section id="contact" className="wrapper style1 fade-up">
           <div className="inner">
             <h2>Get in touch</h2>
             <p>
@@ -415,7 +415,7 @@ function App() {
       <footer id="footer" className="wrapper style1-alt">
         <div className="inner">
           <ul className="menu">
-            <li>© Untitled. All rights reserved.</li>
+            <li>© Mythrynne. All rights reserved.</li>
             <li>
               Design: <a href="http://html5up.net">HTML5 UP</a>
             </li>
