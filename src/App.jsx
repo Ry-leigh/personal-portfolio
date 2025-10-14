@@ -51,12 +51,56 @@ function App() {
             </ul>
           </div>
         </section>
-        
+
         {/* About Me */}
         <section id="about" className="wrapper style1 fade-up">
           <div className="inner" style={{ paddingTop: 0 }}>
             <h1 className="major" />
             <h2>About Me</h2>
+            <blockquote>
+              I'm currently a 3rd year Bachelor of Science in Information Systems student in La Verdad Christian College, passionate about web app development and full-stack projects. My academic journey taught me more than technical skills — it strengthened how I think about systems, people, and the stories behind everything we build.
+              <br />
+              <br />
+              I've spent the last few years exploring how technology can make education and systems simpler, effective and efficient. One of my goals is to design smarter, more intuitive systems that go beyond function — systems that actually feel alive and engaging to use.
+            </blockquote>
+            <hr />
+            <h2>Education</h2>
+            <blockquote>
+              La Verdad Christian College <br />
+              Bachelor of Science in Information Systems <br />
+              2025 - present <br />
+              <ul style={{ margin: "0 1em" }}>
+                {/* <li></li> */}
+              </ul>
+              <hr />
+              La Verdad Christian College <br />
+              Associate in Computer Technology <br />
+              2024 Graduate <br />
+              <ul style={{ margin: "0 1em" }}>
+                <li>Gold Medalist</li>
+              </ul>
+              <hr />
+              Arellano University - Andres Bonifacio Campus <br />
+              Senior High School <br />
+              2022 Graduate <br />
+              <ul style={{ margin: "0 1em" }}>
+                <li>With Honors</li>
+              </ul>
+            </blockquote>
+            <hr />
+            <h2>Beyond The Screen</h2>
+            <blockquote>
+              When I'm not coding, I like to draw—mostly anime-inspired portraits. I got into it because of someone who once encouraged me to create, and though I haven't drawn as much lately, it remains a part of me that I'd love to bring into my web work someday through digital art and design.
+              <br />
+              <br />
+              Gaming is where I find inspiration the most. I'm drawn to the rich worlds and breathtaking sceneries of games like Genshin Impact—to me, they're like digital landscapes worth exploring, with lore and storytelling that feel as immersive as a good book.
+              <br />
+              <br />
+              I also enjoy listening to music, particularly Korean and Japanese pop, however I've been listening to classical music for stuying and coding lately.
+              <br />
+              <br />
+              Outside all that, I'd say I'm a pretty chill person, and what most would call a “social butterfly.” Not entirely an extrovert but I like listening and learning about others' experiences, which I think has helped me connect with a lot of different people and perspectives.
+            </blockquote>
           </div>
         </section>
 
