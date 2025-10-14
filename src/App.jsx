@@ -31,14 +31,17 @@ function App() {
         {/* Intro */}
         <section id="intro" className="wrapper style1 fullscreen fade-up">
           <div className="inner">
-            <h1>Hyperspace</h1>
-            <p>
-              Just another fine responsive site template designed by{" "}
-              <a href="http://html5up.net">HTML5 UP</a>
-              <br />
-              and released for free under the{" "}
-              <a href="http://html5up.net/license">Creative Commons</a>.
+            <div className="col-12">
+              <span className="image right">
+                <img src="images/pic01.jpg" alt="" />
+              </span>
+            </div>
+            <p style={{ marginBottom: 0 }}>Hello, I'm</p>
+            <h1>Ryan Aaron Dela Cruz</h1>
+            <p style={{ marginBottom: "1em" }}>
+              &nbsp; ࣭ ⭑๋ ࣭ ⭑ <i>Crafting Digital Realms, One Commit at a Time&nbsp;</i> ๋ ࣭ ⭑๋ ࣭
             </p>
+            <p>A Full-Stack Developer in the making who loves interweaving technology, design, and creative ideas.</p>
             <ul className="actions">
               <li>
                 <a href="#about" className="button scrolly">
@@ -48,6 +51,7 @@ function App() {
             </ul>
           </div>
         </section>
+        
         {/* About Me */}
         <section id="about" className="wrapper style1 fade-up">
           <div className="inner" style={{ paddingTop: 0 }}>
@@ -290,7 +294,7 @@ function App() {
           </div>
         </section>
       </div>
-      
+
       {/* Footer */}
       <footer id="footer" className="wrapper style1-alt">
         <div className="inner">
