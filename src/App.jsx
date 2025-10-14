@@ -107,67 +107,98 @@ function App() {
         {/* My Skillset */}
         <section id="skills" className="wrapper style3 fade-up">
           <div className="inner">
-            <h2>What we do</h2>
+            <h2>Skills &amp; Technologies</h2>
             <p>
-              Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-              mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-              hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-              quis lorem.
+              Here are the languages, frameworks, and tools I use to turn ideas into
+              interactive, functional, and user-friendly applications. Each skill
+              represents part of how I design, build, and refine digital experiences.
             </p>
             <div className="features">
+              <section style={{ padding: "2em 0", justifyItems: "center" }}>
+                <h3>Languages, Frameworks &amp; Libraries</h3>
+              </section>
+              <section style={{ padding: "2em 0", justifyItems: "center" }}>
+                <h3>Tools &amp; Technologies</h3>
+              </section>
               <section>
                 <span className="icon solid major fa-code" />
-                <h3>Lorem ipsum amet</h3>
+                <h3>Languages</h3>
+                <table>
+                  <tbody>
+                    <tr
+                      style={{
+                        backgroundColor: "rgba(255, 255, 255, 0)",
+                        border: "none"
+                      }}
+                    >
+                      <td>
+                        <ul style={{ marginBottom: 0 }}>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript (ES6+)</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ul style={{ marginBottom: 0 }}>
+                          <li>Python</li>
+                          <li>Java</li>
+                          <li>PHP</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <section>
+                <span className="icon brands major fa-github" />
+                <h3>Git &amp; Github</h3>
                 <p>
-                  Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                  aliquam turpis mauris, sed ultricies erat dapibus.
+                  Version control and collaboration tools that I rely on to track
+                  progress, manage branches, and share code responsibly.
                 </p>
               </section>
               <section>
-                <span className="icon solid major fa-lock" />
-                <h3>Aliquam sed nullam</h3>
+                <span className="icon brands major fa-laravel" />
+                <h3>Laravel</h3>
                 <p>
-                  Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                  aliquam turpis mauris, sed ultricies erat dapibus.
+                  My main framework for backend development. It's where I learned to
+                  manage routes, controllers, and models efficiently while keeping code
+                  clean and organized.
                 </p>
               </section>
               <section>
-                <span className="icon solid major fa-cog" />
-                <h3>Sed erat ullam corper</h3>
+                <span className="icon solid major fa-database" />
+                <h3>MySQL</h3>
                 <p>
-                  Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                  aliquam turpis mauris, sed ultricies erat dapibus.
+                  My go to database system I use for storing, managing, and querying
+                  structured data, it's what I use together with Laravel to build
+                  functional, data-driven applications.
                 </p>
               </section>
               <section>
-                <span className="icon solid major fa-desktop" />
-                <h3>Veroeros quis lorem</h3>
+                <span className="icon brands major fa-react" />
+                <h3>React</h3>
                 <p>
-                  Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                  aliquam turpis mauris, sed ultricies erat dapibus.
+                  The JavaScript library I use for creating dynamic, component-based
+                  interfaces. React helps me think in reusable parts, manage states
+                  effectively, and design UIs.
                 </p>
               </section>
               <section>
-                <span className="icon solid major fa-link" />
-                <h3>Urna quis bibendum</h3>
+                <span className="icon brands major fa-figma" />
+                <h3>Figma</h3>
                 <p>
-                  Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                  aliquam turpis mauris, sed ultricies erat dapibus.
-                </p>
-              </section>
-              <section>
-                <span className="icon major fa-gem" />
-                <h3>Aliquam urna dapibus</h3>
-                <p>
-                  Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                  aliquam turpis mauris, sed ultricies erat dapibus.
+                  My preferred tool for designing interfaces and visual prototypes. It
+                  helps me plan user experiences and translate ideas into practical
+                  layouts before moving to development.
                 </p>
               </section>
             </div>
             <ul className="actions">
               <li>
-                <a href="generic.html" className="button">
-                  Learn more
+                <a href="" className="button" download="">
+                  <span className="icon solid fa-download">&nbsp;&nbsp;</span>Download My
+                  Resume
                 </a>
               </li>
             </ul>
