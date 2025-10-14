@@ -206,22 +206,36 @@ function App() {
         </section>
 
         {/* My Works */}
-        <section id="works" className="wrapper style2 spotlights">
+        <section id="three" className="wrapper style2 spotlights">
+          <div className="inner">
+            <h2>My Recent Works</h2>
+            <p>
+              Here are some of the systems and prototypes I've worked on, each
+              reflecting a stage in my growth as a developer.
+            </p>
+          </div>
           <section>
-            <a href="#" className="image">
+            <a className="image">
               <img src="images/pic01.jpg" alt="" data-position="center center" />
             </a>
             <div className="content">
               <div className="inner">
-                <h2>Sed ipsum dolor</h2>
+                <h2>SecreQuery</h2>
                 <p>
-                  Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                  turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+                  <i>"Take Notes, Take Charge"</i>
+                </p>
+                <p>
+                  A web app for class secretaries to manage attendance, notes, and
+                  events. Built with Laravel, it strengthened my skills in
+                  notifications, helper functions, and background job processing.
                 </p>
                 <ul className="actions">
                   <li>
-                    <a href="generic.html" className="button">
-                      Learn more
+                    <a
+                      href="https://github.com/Ry-leigh/secrequery-app.git"
+                      className="button"
+                    >
+                      GitHub Repository
                     </a>
                   </li>
                 </ul>
@@ -229,20 +243,27 @@ function App() {
             </div>
           </section>
           <section>
-            <a href="#" className="image">
-              <img src="images/pic02.jpg" alt="" data-position="top center" />
+            <a className="image">
+              <img src="images/pic01.jpg" alt="" data-position="top center" />
             </a>
             <div className="content">
               <div className="inner">
-                <h2>Feugiat consequat</h2>
+                <h2>Digibook</h2>
                 <p>
-                  Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                  turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+                  <i>"Digital interactive book"</i>
+                </p>
+                <p>
+                  An interactive Florante at Laura e-book with gamified learning
+                  features. Though it didn't reach the application's MVP, it taught me
+                  to define scopes clearly and prioritize core features.
                 </p>
                 <ul className="actions">
                   <li>
-                    <a href="generic.html" className="button">
-                      Learn more
+                    <a
+                      href="https://github.com/Ry-leigh/digibook.git"
+                      className="button"
+                    >
+                      GitHub Repository
                     </a>
                   </li>
                 </ul>
@@ -250,20 +271,27 @@ function App() {
             </div>
           </section>
           <section>
-            <a href="#" className="image">
-              <img src="images/pic03.jpg" alt="" data-position="25% 25%" />
+            <a className="image">
+              <img src="images/pic01.jpg" alt="" data-position="25% 25%" />
             </a>
             <div className="content">
               <div className="inner">
-                <h2>Ultricies aliquam</h2>
+                <h2>Memoryte</h2>
                 <p>
-                  Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                  turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+                  <i>"Memo-write"</i>
+                </p>
+                <p>
+                  A note taking web application, and my first ever Laravel project to
+                  practice the basic fundamentals of CRUD, routing and database
+                  management.
                 </p>
                 <ul className="actions">
                   <li>
-                    <a href="generic.html" className="button">
-                      Learn more
+                    <a
+                      href="https://github.com/Ry-leigh/memoryte.git"
+                      className="button"
+                    >
+                      GitHub Repository
                     </a>
                   </li>
                 </ul>
