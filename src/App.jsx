@@ -301,26 +301,25 @@ function App() {
         </section>
 
         {/* Get in Touch */}
-        <section id="contact" className="wrapper style1 fade-up">
+        <section id="four" className="wrapper style1 fade-up">
           <div className="inner">
             <h2>Get in touch</h2>
             <p>
-              Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-              mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-              hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-              quis lorem.
+              I'm always open to new opportunities, collaborations, or simply exchanging
+              ideas. Whether you'd like to discuss a project, ask a question, or just
+              say hello, please feel free to reach out to any of my contacts below :)
             </p>
             <div className="split style1">
               <section>
-                <form method="post" action="#">
+                <form method="POST" action="https://formspree.io/f/xvgwvyqb">
                   <div className="fields">
                     <div className="field half">
                       <label htmlFor="name">Name</label>
-                      <input type="text" name="name" id="name" />
+                      <input type="text" name="name" id="name" required="" />
                     </div>
                     <div className="field half">
                       <label htmlFor="email">Email</label>
-                      <input type="text" name="email" id="email" />
+                      <input type="text" name="email" id="email" required="" />
                     </div>
                     <div className="field">
                       <label htmlFor="message">Message</label>
@@ -328,15 +327,16 @@ function App() {
                         name="message"
                         id="message"
                         rows={5}
+                        required=""
                         defaultValue={""}
                       />
                     </div>
                   </div>
                   <ul className="actions">
                     <li>
-                      <a href="" className="button submit">
+                      <button type="submit" className="button submit">
                         Send Message
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </form>
@@ -346,46 +346,59 @@ function App() {
                   <li>
                     <h3>Address</h3>
                     <span>
-                      12345 Somewhere Road #654
+                      9066 Sitio Punong Balite, Balayong
                       <br />
-                      Nashville, TN 00000-0000
+                      Malolos City, Bulacan
                       <br />
-                      USA
+                      Philippines
                     </span>
                   </li>
                   <li>
                     <h3>Email</h3>
-                    <a href="#">user@untitled.tld</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ryanaarondc@gmail.com"
+                    target="_blank">
+                      ryanaarondc@gmail.com
+                    </a>
                   </li>
                   <li>
                     <h3>Phone</h3>
-                    <span>(000) 000-0000</span>
+                    <span>(+63) 949-597-9973</span>
                   </li>
                   <li>
                     <h3>Social</h3>
                     <ul className="icons">
                       <li>
-                        <a href="#" className="icon brands fa-twitter">
-                          <span className="label">Twitter</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="icon brands fa-facebook-f">
+                        <a href="https://www.facebook.com/mythrynne"
+                        target="_blank"
+                        className="icon brands fa-facebook-f">
                           <span className="label">Facebook</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="icon brands fa-github">
-                          <span className="label">GitHub</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="icon brands fa-instagram">
+                        <a href="https://www.instagram.com/mythrynne/"
+                        target="_blank"
+                        className="icon brands fa-instagram">
                           <span className="label">Instagram</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="icon brands fa-linkedin-in">
+                        <a href="https://discord.com/users/745509844693549147"
+                        target="_blank"
+                        className="icon brands fa-discord">
+                          <span className="label">Twitter</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/Ry-leigh"
+                        target="_blank"
+                        className="icon brands fa-github">
+                          <span className="label">GitHub</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/in/ryan-aaron-dela-cruz-a93b19301/"
+                        target="_blank"
+                        className="icon brands fa-linkedin-in">
                           <span className="label">LinkedIn</span>
                         </a>
                       </li>
