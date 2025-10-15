@@ -188,15 +188,13 @@ function App() {
                 <span className="icon brands major fa-figma" />
                 <h3>Figma</h3>
                 <p>
-                  My preferred tool for designing interfaces and visual prototypes. It
-                  helps me plan user experiences and translate ideas into practical
-                  layouts before moving to development.
+                  My preferred tool for designing interfaces and visual prototypes. It helps me plan user experiences and translate ideas into practical layouts before moving to development.
                 </p>
               </section>
             </div>
             <ul className="actions">
               <li>
-                <a href="" className="button" download="">
+                <a href="Ryan-Aaron-Resume.pdf" className="button" download>
                   <span className="icon solid fa-download">&nbsp;&nbsp;</span>Download My
                   Resume
                 </a>
@@ -225,9 +223,7 @@ function App() {
                   <i>"Take Notes, Take Charge"</i>
                 </p>
                 <p>
-                  A web app for class secretaries to manage attendance, notes, and
-                  events. Built with Laravel, it strengthened my skills in
-                  notifications, helper functions, and background job processing.
+                  A web app for class secretaries to manage attendance, notes, and events. Built with Laravel, it strengthened my skills in notifications, helper functions, and background job processing.
                 </p>
                 <ul className="actions">
                   <li>
@@ -253,9 +249,7 @@ function App() {
                   <i>"Digital interactive book"</i>
                 </p>
                 <p>
-                  An interactive Florante at Laura e-book with gamified learning
-                  features. Though it didn't reach the application's MVP, it taught me
-                  to define scopes clearly and prioritize core features.
+                  An interactive Florante at Laura e-book with gamified learning features. Though it didn't reach the application's MVP, it taught me to define scopes clearly and prioritize core features.
                 </p>
                 <ul className="actions">
                   <li>
@@ -281,9 +275,7 @@ function App() {
                   <i>"Memo-write"</i>
                 </p>
                 <p>
-                  A note taking web application, and my first ever Laravel project to
-                  practice the basic fundamentals of CRUD, routing and database
-                  management.
+                  A note taking web application, and my first ever Laravel project to practice the basic fundamentals of CRUD, routing and database management.
                 </p>
                 <ul className="actions">
                   <li>
